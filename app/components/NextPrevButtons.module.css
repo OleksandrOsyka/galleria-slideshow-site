@@ -1,0 +1,19 @@
+.backButton {
+    margin-right: 22px;
+}
+
+.backButton:hover, .nextButton:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+    .backButton {
+        width: 28px;
+        height: 24px;
+    }
+
+    .nextButton {
+        width: 28px;
+        height: 24px;
+    }
+}

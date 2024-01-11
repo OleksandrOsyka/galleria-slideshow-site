@@ -1,0 +1,25 @@
+#progressBar {
+    width: calc(100% + 48px);
+    height: 1px;
+    background-color: #E5E5E5;
+    margin-left: -24px;
+}
+
+#bar {
+    background-color: black;
+    height: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+    #progressBar {
+        grid-area: 3 / 1 / span 1 / span 1;
+        width: calc(100% + 80px);
+    margin-left: -40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #progressBar {
+        grid-area: 3 / 1 / span 1 / span 2;
+    }
+}
