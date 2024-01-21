@@ -5,7 +5,7 @@ export default function RootLayot({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>

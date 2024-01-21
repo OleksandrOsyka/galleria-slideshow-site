@@ -1,107 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
 
 :root {
-    --black: hsl(0, 0%, 0%);
-    --white: hsl(0, 0%, 100%);
-    --light-grey: #7D7D7D;
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: #7d7d7d;
 }
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700;
-    width: 100%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  width: 100%;
 }
 
-
-
 .heading1 {
-    font-size: 24px;
-    line-height: 29px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .heading2 {
-    font-size: 24px;
-    line-height: normal;
-    color: var(--white);
-    
+  font-size: 24px;
+  line-height: normal;
+  color: var(--white);
 }
 
 .heading3 {
-    font-size: 14px;
-    line-height: normal;
-    color: black;
+  font-size: 14px;
+  line-height: normal;
+  color: black;
 }
 
 .subhead1 {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 17px;
-    color: var(--light-grey);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--light-grey);
 }
 
 .subhead2 {
-    font-size: 13px;
-    line-height: normal;
-    color: var(--white);
-    opacity: 0.7;
-    font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--white);
+  opacity: 0.7;
+  font-weight: 400;
 }
 
 .link1 {
-    color: var(--light-grey);
-    font-size: 9px;
-    line-height: normal;
-    letter-spacing: 1.9px;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: var(--light-grey);
+  font-size: 9px;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .link1:hover {
-    color: var(--black);
+  color: var(--black);
 }
 
 .link2 {
-    color: var(--light-grey);
-font-size: 9px;
-line-height: normal;
-letter-spacing: 1.929px;
-text-decoration-line: underline;
-text-transform: uppercase;
+  color: var(--light-grey);
+  font-size: 9px;
+  line-height: normal;
+  letter-spacing: 1.929px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .link2:hover {
-    color: var(--black);
-
+  color: var(--black);
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
+  html,
+  body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
 
-    html, body {
-        display: flex;
-        flex-flow: column;
-        height: 100%;
-    }
-   
-    .heading1 {
-        font-size: 56px;
-        line-height: 64px; 
-    }
+  .heading1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
 
-    .heading3 {
-        font-size: 18px;
-    }
+  .heading3 {
+    font-size: 18px;
+  }
 
-    .link1 {
-        font-size: 12px;
-        letter-spacing: 2.571px;
-    }
+  .link1 {
+    font-size: 12px;
+    letter-spacing: 2.571px;
+  }
 }
-
