@@ -141,6 +141,7 @@
     grid-template-columns: auto;
     grid-template-rows: auto 1fr;
     height: 100%;
+    overflow: auto;
   }
 
   .container {
@@ -215,6 +216,7 @@
     grid-template-rows: 1fr 1px 95px;
     width: 100%;
     height: 100%;
+    overflow: unset;
   }
 
   .container {
