@@ -26,8 +26,6 @@ Users should be able to:
 ![](./public/screenshots/galleria-slideshow-site-murex.vercel.app_.png)
 ![](./public/screenshots/galleria-slideshow-site-murex.vercel.app_%20(1).png)
 ![](./public/screenshots/galleria-slideshow-site-murex.vercel.app_%20(2).png)
-![](./public/screenshots/galleria-slideshow-site-murex.vercel.app_(Surface%20Pro%207).png)
-![](./public/screenshots/galleria-slideshow-site-murex.vercel.app_%20(2).png)
 
 ### Links
 
